@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+		    
+		    background-image: url('one.jpg');
+		    /*background-image: linear-gradient(to bottom right, red, yellow);*/
+		    background-size: 100% 110%;
+		}
+		section{
+			display: flex;
+			height: 90vh;
+			justify-content: center;
+			align-items: center;
+
+		}
+		form{
+			background-color: rgba(0, 128, 128, 0.4);
+			width: 40vw;
+			border-radius: 10px;
+			padding: 40px;
+			box-shadow: 10px 10px 10px rgba(0, 128, 128, 0.9); 
+
+			/*border:1px solid white;*/
+		}
+		div{}
+		h2{
+			text-align: center;
+			color: white;
+			font-size: 2.5rem
+		}
+		label{
+			display: block;
+			color: white;
+			font-size: 23px;	
+		}
+		input{
+			display: block;
+			width: 98%;
+			padding: 14px;
+			margin-bottom: 20px;
+			margin-top: 10px;
+			border-radius: 5px;
+			border:none;
+			color: white;
+			font-size: 18px;
+			background-color: rgb(10 20 20 / 40%);
+			box-shadow: 10px 10px 10px rgba(0, 128, 128, 0.9);
+		}
+		button{
+			display: flex;
+			justify-content: center;
+			padding: 11px 30px;
+		    width: 24%;
+		    font-size: 19px;
+		    color: white;
+		    margin-right: 18px;
+		    margin-bottom: 91px;
+		    background-color: rgba(0, 128, 128, 0.4);
+		    border-radius: 5px;
+		    border:none;
+		    box-shadow: 10px 10px 10px rgba(0, 128, 128, 0.9);
+		}
+		a{
+			color: white;
+		}
+		::placeholder{
+			font-size: 18px;
+		}
+		img{
+			width: 150px;
+		}
+		#logo{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<section>
+		<form >
+		<div id="logo">
+			<img src="travels.png" alt="Travel icon">
+			<h2>Login Form</h2>
+		</div>
+		<div>
+			<label>User Name</label>
+			<input type="text" name="USERNAME" placeholder="Enter User Name">
+		</div>
+		<div>
+			<label>User Password</label>
+			<input type="password" name="USERPASSWORD" placeholder="Enter User Password">
+		</div>
+		<div>
+			<button type="submit">Login</button>
+			<button type="reset">Cancel</button>
+		</div>
+		<div>
+			<a href="">Create Account?</a>
+		</div>
+	</form>			
+	</section>
+</body>
+</html>
